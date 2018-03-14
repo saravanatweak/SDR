@@ -46,6 +46,12 @@
 			<artifactId>spring-boot-starter-data-rest</artifactId>
 		</dependency>
 		
+		<!-- Adding Spring Security in order to implement the security  -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		
 <!-- you have to add the below dependency and have to override spring MVC configuration as well 
 in order to work for normal non-spring MVC application.	
 	<dependency>
